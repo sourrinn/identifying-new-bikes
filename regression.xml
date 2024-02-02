@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="Utilities.ExtentReportManager"/>
+</listeners>
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="os" value="Windows"/>
+   <parameter name="browser" value="chrome"/>
+   <groups>
+	<run>
+		<include name="master"/>	
+		<exclude name="sanity"/>
+		<include name="regression"/>
+	</run>
+	</groups>
+    <classes>
+      <!--<class name="TestCases.TC001_HomePage"/>-->
+      <!--<class name="TestCases.TC002_UsedCars"/>-->
+      <class name="TestCases.TC003_UpcomingBikePage"/>
+    </classes>
+  </test> <!-- Test -->	
+  
+  <test thread-count="5" name="EdgeTest">
+  <parameter name="os" value="Windows"/>
+   <parameter name="browser" value="edge"/>
+   <groups>
+	<run>
+		<include name="master"/>
+		<exclude name="sanity"/>
+		<include name="regression"/>
+	</run>
+	</groups>
+    <classes>
+      <!--<class name="TestCases.TC001_HomePage"/>-->
+      <!--<class name="TestCases.TC002_UsedCars"/>-->
+      <class name="TestCases.TC003_UpcomingBikePage"/>
+    </classes>
+  </test> <!-- Test -->	
+</suite> <!-- Suite -->
