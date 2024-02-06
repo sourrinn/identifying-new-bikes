@@ -9,7 +9,7 @@ The project uses various dependencies and libraries to facilitate automation.
  
 ###1. Maven Repository
  
-- *Maven Version*: 3.12.1
+- *Maven Version*: 3.9.3
  
 ###2. Dependencies
  
@@ -26,7 +26,7 @@ The project uses various dependencies and libraries to facilitate automation.
   - Purpose: Generates interactive and detailed HTML reports to enhance test result analysis.
  
 - *Selenium*
-  - Version: 4.15.0
+  - Version: 4.16.1
   - Purpose: Enables interaction with web elements, navigation, and form submission in the browser.
  
 - *Loggers*

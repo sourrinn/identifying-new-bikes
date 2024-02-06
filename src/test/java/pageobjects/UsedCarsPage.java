@@ -13,10 +13,12 @@ import Utilities.Screenshots;
 
 public class UsedCarsPage extends BasePage  {
 
+	//constructor of usedCarsPage
 	public UsedCarsPage(WebDriver driver) throws IOException {
 		super(driver);
 	}
 	
+	//declaring variables
 	public Screenshots ss;
 	public String xlFile;
 	public JavascriptExecutor js;
@@ -32,10 +34,13 @@ public class UsedCarsPage extends BasePage  {
 	public List<WebElement> popularModels;
 
 	//Action Methods
+	
+	//returning to homePage
 	public void returnToHomePage() {
 		zigWheelsLogo.click();
 	}
 	
+	//displaying the popular models of the used cars present in chennai
 	public void displayPopularModels() throws InterruptedException, IOException {
 		ss = new Screenshots(driver);
 		xlFile = System.getProperty("user.dir")+"\\testData\\zigWheels.xlsx";
@@ -48,7 +53,7 @@ public class UsedCarsPage extends BasePage  {
 			js.executeScript("arguments[0].click();", checkBoxes.get(i));
 			Thread.sleep(2000);
 			System.out.println(popularModels.get(i).getText());
-			ExcelUtils.setCellData(xlFile, "popularModels", i+1, 0,popularModels.get(i).getText());
+			ExcelUtils.setCellData(xlFile, "popularModels", i+1, 0,popularModels.get(i).getText()); //writing the names of popular models in the excel
 		}
 	}
 }

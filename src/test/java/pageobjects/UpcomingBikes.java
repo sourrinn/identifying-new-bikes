@@ -14,17 +14,17 @@ import Utilities.ExcelUtils;
 import Utilities.Screenshots;
 
 public class UpcomingBikes extends BasePage {
-
+    //cobstructor of upcomingBikes
 	public UpcomingBikes(WebDriver driver) throws IOException {
 		super(driver);
 	}
-
+ 
+	//declaring variables 
 	public Screenshots ss;
 	public JavascriptExecutor js;
 	public String xlFile;
 	
 	//Elements
-	
 	@FindBy(xpath="//div[@class='row qlc']//div[@class='col-lg-2']")
 	public WebElement zigwheelsLogo;
 	
@@ -50,9 +50,13 @@ public class UpcomingBikes extends BasePage {
 	public WebElement hondaText; 
 	
 	//Action Methods
+	
+	//returing to homePage
 	public void returntohomepage() {
 		zigwheelsLogo.click();
 	}
+	
+	//clicking on Honda option from manufacturer option
 	public void filtermanufacturer() throws InterruptedException, IOException {
 		ss = new Screenshots(driver);
 		Select s = new Select(manufacturesrs);
@@ -67,6 +71,7 @@ public class UpcomingBikes extends BasePage {
 		}
 	}
 	
+	//scrolling upto viewmore option to see further bikes and clicking on it
 	public void scrollToViewMore() throws InterruptedException, IOException {
 		ss = new Screenshots(driver);
 		js = (JavascriptExecutor)driver;
@@ -76,6 +81,8 @@ public class UpcomingBikes extends BasePage {
 		Thread.sleep(3000);
 		ss.ScreenShot("Bikes");
 	}
+	
+	//used to print the bike detail which price under 400000 and writing the names into the excel sheet too
 	public void displaybikedetails() throws IOException {
 		int j=1;
 		xlFile = System.getProperty("user.dir")+"\\testData\\zigWheels.xlsx";
@@ -84,12 +91,12 @@ public class UpcomingBikes extends BasePage {
 			int price = Integer.parseInt(priceOfBike.get(i).getAttribute("data-price"));
 			if(price<400000) {
 				System.out.println(Bike_Names.get(i).getText());
-				ExcelUtils.setCellData(xlFile, "upcomingBikes", j, 0,Bike_Names.get(i).getText());
+				ExcelUtils.setCellData(xlFile, "upcomingBikes", j, 0,Bike_Names.get(i).getText()); //writing the names
 				System.out.println(Bike_Prices.get(i).getText());
-				ExcelUtils.setCellData1(xlFile, "upcomingBikes", j, 1,Bike_Prices.get(i).getText());
+				ExcelUtils.setCellData1(xlFile, "upcomingBikes", j, 1,Bike_Prices.get(i).getText()); //writing the price of bike
 				System.out.println(Bike_Launchdate.get(i).getText());
 				System.out.println("-----------------------------------");
-				ExcelUtils.setCellData1(xlFile, "upcomingBikes", j, 2,Bike_Launchdate.get(i).getText());
+				ExcelUtils.setCellData1(xlFile, "upcomingBikes", j, 2,Bike_Launchdate.get(i).getText()); //writing the launch date of bike
 				j++;
 			}
 			else {

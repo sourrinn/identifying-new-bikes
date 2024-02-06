@@ -12,13 +12,16 @@ import org.openqa.selenium.support.PageFactory;
 public class BasePage {
 	public WebDriver driver;
 	public Properties p;
+	//constructor of Base Page
 	public BasePage(WebDriver driver) throws IOException {
 	this.driver=driver;
-	PageFactory.initElements(driver,this);
+	PageFactory.initElements(driver,this); //invoking Webelements
 	FileReader file= new FileReader(".//src//test//resources//config.properties");
 	p=new Properties();
 	p.load(file);
 }
+	
+	//method for highlighting the elements
 	public void highlightElement(WebElement element) {
 		try {
 		JavascriptExecutor js = (JavascriptExecutor) driver;

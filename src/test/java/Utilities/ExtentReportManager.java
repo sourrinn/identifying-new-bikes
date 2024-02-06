@@ -1,5 +1,7 @@
 package Utilities;
 
+import java.util.List;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -33,6 +35,11 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 		extent.setSystemInfo("Tester Name","Debjit Kundu(2303480)");
 		extent.setSystemInfo("os","Windows11");
 		extent.setSystemInfo("Browser name","Chrome, Edge");
+		
+		List<String> includedGroups = context.getCurrentXmlTest().getIncludedGroups();
+		if (!includedGroups.isEmpty()) {
+			extent.setSystemInfo("Groups", includedGroups.toString());
+		}
 					
 	}
 
@@ -40,6 +47,7 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 	public void onTestSuccess(ITestResult result) {
 		
 		test = extent.createTest(result.getName()); // create a new enty in the report
+		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS, "Test case PASSED is:" + result.getName()); // update status p/f/s
 		try {
 			String imgPath = new Screenshots(driver).ScreenShot(result.getName());
@@ -53,7 +61,8 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		
 		test = extent.createTest(result.getName());
-		test.log(Status.FAIL, "Test case FAILED is:" + result.getName());
+		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
+		test.log(Status.FAIL, "Test case FAILED is:" + result.getName());		
 		test.log(Status.FAIL, "Test Case FAILED cause is: " + result.getThrowable()); 
 		try {
 			String imgPath = new Screenshots(driver).ScreenShot(result.getName());
@@ -67,6 +76,7 @@ public class ExtentReportManager extends BaseClass implements ITestListener{
 	public void onTestSkipped(ITestResult result) {
 
 		test = extent.createTest(result.getName());
+		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.SKIP, "Test case SKIPPED is:" + result.getName());
 		
 	}
