@@ -84,12 +84,9 @@ public class BaseClass {
 	    }
 		//implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		try {
-			driver.manage().window().maximize();
-			driver.get(p.getProperty("altUrl"));
-		}catch(Exception e) {}
-			driver.get(p.getProperty("Url"));
-		}
+		driver.manage().window().maximize();
+		driver.get(p.getProperty("Url"));
+	}
 	@AfterTest(groups= {"master"})        
 	public void teardown() {
 		driver.quit();

@@ -341,3 +341,76 @@
 11:48:16.481 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
 11:48:18.071 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
 11:48:25.588 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+13:47:33.751 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+13:48:23.839 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+13:48:48.740 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+13:48:49.890 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+13:49:31.956 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+13:50:04.073 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+13:50:11.900 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+13:50:14.701 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+13:50:27.996 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+13:51:11.419 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+13:52:03.865 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+13:52:27.586 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+13:52:29.521 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+13:52:59.775 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+13:53:31.489 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+13:53:39.296 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+13:53:41.555 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+13:53:49.585 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+16:12:42.908 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+16:14:42.079 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+16:14:51.958 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+16:15:17.214 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+16:15:18.560 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+16:15:21.710 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+16:15:23.282 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+16:15:31.774 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+16:15:32.661 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+16:15:44.574 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+16:15:56.278 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+16:16:45.330 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+16:16:47.167 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+16:16:50.944 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+16:16:54.760 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+16:17:03.252 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+16:17:06.732 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+16:17:15.771 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+16:18:13.000 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+16:18:23.626 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+16:18:48.449 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+16:18:49.575 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+16:18:59.660 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+16:19:01.083 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+16:19:09.382 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+16:19:10.604 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+16:19:20.572 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+16:19:34.460 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+16:19:42.656 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+16:20:06.420 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+16:20:07.612 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+16:20:25.292 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+16:20:26.881 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+16:20:35.105 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+16:20:37.769 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+16:20:48.362 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+10:19:36.146 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+10:21:00.497 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+10:21:36.281 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+10:22:01.432 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+10:22:07.213 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+10:22:14.812 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+10:22:46.410 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+10:22:54.709 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+10:22:56.661 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+10:23:04.472 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
+10:25:34.673 [main] INFO  TestCases.TC003_UpcomingBikePage - ---title is validated---
+10:26:12.242 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on chennai city---
+10:26:37.020 [main] INFO  TestCases.TC003_UpcomingBikePage - ---popular models are displayed---
+10:27:09.371 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage sucessfully---
+10:27:56.513 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clicked on upcoming bikes---
+10:28:28.220 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickign on honda from dropdown is done---
+10:28:36.437 [main] INFO  TestCases.TC003_UpcomingBikePage - ---details are shown successfully---
+10:28:37.749 [main] INFO  TestCases.TC003_UpcomingBikePage - ---returned homepage successfully---
+10:28:45.409 [main] INFO  TestCases.TC003_UpcomingBikePage - ---clickied on login and captured the error message too---
