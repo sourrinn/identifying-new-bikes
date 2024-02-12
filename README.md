@@ -1,17 +1,17 @@
-#Selenium Automation Testing Project: Identify New Bikes
+# Selenium Automation Testing Project: Identify New Bikes
  
-##Project Overview
+## Project Overview
 This Selenium automation testing project focuses on automating tasks on ZigWheels.com
 The primary objectives include capturing user information, navigating through the portal, verifying the presence of specific elements. 
 The project uses various dependencies and libraries to facilitate automation.
 
-##Project Structure
+## Project Structure
  
-###1. Maven Repository
+### 1. Maven Repository
  
 - *Maven Version*: 3.9.3
  
-###2. Dependencies
+### 2. Dependencies
  
 - *Apache POI*
   - Version: 5.2.2
@@ -33,7 +33,7 @@ The project uses various dependencies and libraries to facilitate automation.
   - Version: 2.22.1
   - Purpose: Provides logging capabilities for better debugging and traceability.
  
-##Automation Test Flow
+## Automation Test Flow
  
 1. *Open ZigWheels.com*
    - Navigate to the ZigWheels.com.
@@ -70,7 +70,7 @@ The project uses various dependencies and libraries to facilitate automation.
 8. *Verify the results displayed *
    - Verify and write the results in excel sheet.
  
-##How to Run the Tests
+## How to Run the Tests
  
 1. *Open Eclipse IDE:*
    - Launch Eclipse IDE on your machine.
@@ -97,10 +97,10 @@ The project uses various dependencies and libraries to facilitate automation.
    - After execution, open the test-output folder.
    - Find the Extent Report HTML file (index.html) for detailed test reports.
  
-##Author Information
+## Author Information
  
 - *Debjit Kundu*
  
-##Disclaimer
+## Disclaimer
  
 This project is intended for educational and testing purposes only. The authors are not responsible for any unauthorized use or modification of the code. Use at your own risk.
