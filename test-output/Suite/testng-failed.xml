@@ -4,9 +4,9 @@
   <listeners>
     <listener class-name="Utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="EdgeTest(failed)">
+  <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <groups>
       <run>
         <include name="master"/>
@@ -22,5 +22,5 @@
         </methods>
       </class> <!-- TestCases.TC003_UpcomingBikePage -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
